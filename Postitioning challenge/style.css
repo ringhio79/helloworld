@@ -1,0 +1,42 @@
+	body {
+			height: 100%;
+		}
+		.box {
+			background-color: gray;
+			color: red;
+		}
+
+		.saleImage {
+		    position: fixed;
+		    right: 0px;
+		    top: 0px;
+
+		}
+		
+		.column {
+			display: inline-block;
+			padding: 10px;
+			position: relative;
+			background-color: azure;
+			color: blue;
+			width: 40%;
+			height: auto;
+			margin: 20px;
+		
+		}
+
+		#header {
+			text-align: center;
+			width: 960px;
+			height: 100px;
+		}
+
+		h1 {
+			padding-top: 20px;
+		}
+
+		#footer {
+			position: fixed;
+			bottom: 0px;
+			
+		}

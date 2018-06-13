@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .div-1 {
+            width: 300px;
+            background-color: black;
+            color: white;
+            position: relative;
+            /* Take out position: relative */
+            /* See what happens */
+        }
+
+        .box {
+            margin: 10px;
+            height: 100px;
+            width: 100px;
+            border: 1px solid;
+        }
+
+        .positionChange {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            background-color: lemonchiffon;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div-1">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box positionChange"></div>
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>
